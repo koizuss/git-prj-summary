@@ -105,11 +105,11 @@ func main() {
 			if *debug > 1 { fmt.Println(auth) }
 			_, ok2 := summay[auth]
 			if ok2 {
-				summay[auth] = summay[auth] + 1
+				summay[auth]++
 			} else {
 				summay[auth] = 1
 			}
-			all = all + 1
+			all++
 		}
 
 		gitBlame.Wait()
