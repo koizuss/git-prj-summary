@@ -1,7 +1,7 @@
-prj-summary
+git-prj-summary
 ====================
 
-It's show summary on git project
+Show a summary of the projects that use Git
 
 Sum step counts in target project by committers.
 This is a contribution to target project.
